@@ -1,0 +1,51 @@
+body{
+    margin: 10px;
+    padding: 5px;
+    background-color: #329C9F;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+/*input class- task */
+#task{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(252, 232, 208) ;
+}
+button{
+    margin: 50px auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:gray ;
+    color: black;
+    box-shadow: 1px 0.5px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(81, 53, 22);
+    color: white;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
