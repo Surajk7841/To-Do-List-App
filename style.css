@@ -3,11 +3,13 @@ body{
     padding: 5px;
     background-color: #329C9F;
 }
+
 h1{
     text-align: center;
     padding: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
+
 form{
    display: flex;
    flex-direction: column;
@@ -15,6 +17,7 @@ form{
     justify-content: center;
     margin: 100px auto;
 }
+
 /*input class- task */
 #task{
     width: 500px;
@@ -24,6 +27,7 @@ form{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:rgb(252, 232, 208) ;
 }
+
 button{
     margin: 50px auto;
     width: 100px;
@@ -36,6 +40,7 @@ button{
     box-shadow: 1px 0.5px;
     font-weight: bold;
 }
+
 button:hover{
     cursor: pointer;
     box-shadow: none;
@@ -46,6 +51,5 @@ button:hover{
 .list{
     display: flex;
     justify-content: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif ; 
 }
